@@ -1,1 +1,19 @@
+# Ignore batch script files
 combine.bat
+
+# Ignore node_modules directories
+/node_modules
+/frontend/node_modules
+
+# Ignore Python cache directories
+/frontend/__pycache__/
+/backend/__pycache__/
+
+# Ignore processed and uploaded files in the backend
+/backend/processed/
+/backend/uploads/
+
+# Ignore specific Python files in the backend
+/backend/GenAIPlatformLLM.py
+/backend/RAG_DATA_LOADER.py
+/backend/app-bak.py
